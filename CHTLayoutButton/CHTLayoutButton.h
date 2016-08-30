@@ -38,6 +38,8 @@ typedef enum : NSUInteger {
 
 @property (nonatomic, copy) NSString * btnTitle;
 
-- (instancetype)initWithFrame:(CGRect)frame subMargin:(CGFloat)subMargin layoutButtonType:(CHTLayoutButtonType)layoutButtonType;
+- (instancetype)initWithFrame:(CGRect)frame
+                    subMargin:(CGFloat)subMargin
+             layoutButtonType:(CHTLayoutButtonType)layoutButtonType;
 
 @end
